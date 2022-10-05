@@ -322,7 +322,7 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
     font-size: 18px;
     font-weight: 600;
     margin-top: 0;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .cv_desc {
@@ -574,7 +574,7 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
     letter-spacing: 1px;
     margin: 5px 10px 5px 0;
     padding: 7px 8px 5px 10px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .blog_tag a:hover {
