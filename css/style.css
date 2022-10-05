@@ -250,17 +250,37 @@ button:focus {
 
 
 .lan_funfact {
-    border: 2px dashed #b9b9b9;
+    border: 2px dotted #4c5667;
+    color: rgba(92, 74, 74, 0.7);
 }
 
-.lan_funfact .lan_fun_name {
+.lan_funfact  {
+    background-color: transparent;
     font-size: 15px;
-    color:grey;
+    /* border: 2px solid #fff; */
+    color: grey;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+    font-size: 15px;}
+
+.lan_fun_name{
+    display: hidden;
 }
+
+.lan_funfact:hover,
+.lan_funfact:focus,
+.lan_funfact:active,
+.open>.dropdown-toggle.lan_funfact {
+    background-color: #ead3cd !important;
+    border-color: #fff !important;
+    color: #000 !important;
+}
+
 
 .bg-funfact {
     position: relative;
-    background-image: url(../images/flower.jpeg);
+    /* background-color:#e8befd; */
+    background-image: url(../images/test.avif);
     background-size: cover;
     background-position: center center;
 }
