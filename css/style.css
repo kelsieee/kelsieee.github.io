@@ -209,8 +209,7 @@ button:focus {
 .header_title {
     font-size: 72px;
     font-weight: 400;
-    line-height: 1.2;
-    text-transform: capitalize;
+    line-height: 1.2;    
 }
 
 .header_subtitle {
