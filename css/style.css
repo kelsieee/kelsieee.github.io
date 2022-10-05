@@ -280,7 +280,7 @@ button:focus {
 .bg-funfact {
     position: relative;
     /* background-color:#e8befd; */
-    background-image: url(../images/test.avif);
+    background-image: url(../images/flower.jpeg);
     background-size: cover;
     background-position: center center;
 }
