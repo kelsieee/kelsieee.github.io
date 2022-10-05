@@ -231,7 +231,10 @@ button:focus {
 ============================*/
 
 #about{
-    background-color:#ead3cd;
+background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;    
 }
 .skill-custom .progress {
     height: 4px;
@@ -291,7 +294,7 @@ button:focus {
 #education{
     background: rgb(250,204,255);
     background: linear-gradient(90deg, rgba(250,204,255,0.913624824929972) 27%, rgba(228,227,252,1) 74%);
-    }
+}
 
 
 .cv_edu_exp .cv_edu_exp_box {
