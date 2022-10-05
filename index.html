@@ -1,40 +1,721 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello I'm Kelsie!</h1>
-    <img src = '/test.png' alt ='pp' class='pp' style="width:200px;height:200px;">
-    <p>Hi there! Nice to meet you :DD Let's be friends! </p>    
-    <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
-    </form>
-    <br>
-    <table border = '1'>
-    <tr>
-        <th>Relationship status</th>
-        <td><input type='radio' id ='single'>single pringle</td>
-        <td><input type='radio' id ='single'>taken!!</td>
-    </tr>    
-    
-    <tr>
-        <th>Favourite fruitss</th>
-        <td colspan = '2'><input type='checkbox' id='apple'>apple
-            <input type='checkbox' id='orange'>orange 
-            <input type='checkbox' id='lemon'>lemon 
-        </td>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My personal website!</title>
+
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+      <div class="container">
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+
+            <li class="nav-item">
+              
+            <a href="#education" class="nav-link">Education
                 
+            </a>
+            </li>
 
-    </tr>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
 
-    <tr><td colspan= '3'><input type='submit' value='submit'></td></tr>
-    </table>
-</body>
+    <!--START HOME-->
+    <section class="home-bg section h-100vh" id="home">
+      <div class="bg-overlay"></div>
+      <div class="home-table">
+        <div class="home-table-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <div class="text-white text-center">
+                  <h3>Welcome to</h3>
+                    <h1 class="header_title mb-0 mt-3"> <span class="font-weight-bold">Kelsie's </span>Website </h1>
+                        <ul class="social_home list-unstyled text-center pt-4">
+                  <ul class="social_home list-unstyled text-center pt-4">
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/jenniferkelsie/?hl=en">
+                        <img src="images/Instagram_icon.png.webp" width="30px" alt="">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/jenniferkelsie/?originalSubdomain=sg">
+                        <img src="images/linkedin.png" width="30px" alt="">
+                      </a>
+
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/?lang=en">
+                        <img src="images/twitter.png" width="30px" alt="">
+                        </a>
+                    </li>
+                  </ul>
+                  <div class="header_btn">
+                    <a href="#" class="btn btn-outline-custom btn-rounded mt-4"
+                      >Download my resume</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll_down">
+        <a href="#about" class="scroll">
+          <i class="mbri-arrow-down text-white"></i>
+        </a>
+      </div>
+    </section>
+    <!--END HOME-->
+
+    <!-- START ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2><span class="font-weight-bold">About </span>Me</h2>
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+              <p class="text-muted mx-auto mt-2">
+                I am currently a year 2 student majoring in Information Systems
+                at Singapore Management University who has a strong interest in
+                the field of technology and business. I wish to live life to the
+                fullest and bring a positive impact to the people around me!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 pt-4">
+          <div class="col-lg-12">
+            <div>
+              <img
+                src=""
+                alt=""
+                class="img-fluid mx-auto d-block"
+              />
+            </div>
+            <div class="text-center about-detail mx-auto mt-5">
+              <h3 class="mb-3">
+                Hello!
+                <span class="font-weight-bold text-custom"
+                  >I'M Jennifer Kelsie</span
+                >
+              </h3>
+              <ul class="mb-0 list-inline text-center about-work">
+                <li class="list-inline-item mr-0 text-muted">
+                  Aspiring developer /
+                </li>
+                <li class="list-inline-item mr-0 text-muted">
+                  Lifelong learner /
+                </li>
+                <li class="list-inline-item mr-0 text-muted">
+                  Food and travel enthusiast
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <br />
+          <br />
+          <span
+            class="badge rounded-pill bg-secondary font-weight-bold p-3"
+            style="font-size: medium; color: white"
+          >
+            Some things I am currently learning:</span
+          >
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6">
+            <div class="progress-bars skill-custom">
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">Python</div>
+                <div class="text-muted float-right">60%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">Flutter</div>
+                <div class="text-muted float-right">25%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 25%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">
+                  Javascript
+                </div>
+                <div class="text-muted float-right">35%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 35%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="progress-bars skill-custom">
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">Html</div>
+                <div class="text-muted float-right">70%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">Css</div>
+                <div class="text-muted float-right">50%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">Vue.js</div>
+                <div class="text-muted float-right">10%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 10%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- START FUNFACTS -->
+    <section class="section bg-funfact" id="funfact">
+      <div class="container">
+        <div>
+          <h3 class="text-center text-light">Some facts about me</h3>
+        </div>
+        <div class="row" id="counter">
+          <div class="col-lg-3">
+            <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
+              <h1 class="lan_fun_value mb-1" data-count="654">Indonesia</h1>
+              <p class="lan_fun_name mb-0">I was born here</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
+              <h1 class="lan_fun_value mb-1" data-count="6400">Sushi</h1>
+              <p class="lan_fun_name mb-0">is my favourite food</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
+              <h1 class="lan_fun_value mb-1" data-count="2389">5</h1>
+              <p class="lan_fun_name mb-0">I can speak 5 languages</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-center lan_funfact p-4 mt-3 rounded text-white">
+              <h1 class="lan_fun_value mb-1" data-count="653">Cookies</h1>
+              <p class="lan_fun_name mb-0">I bake them when I'm free</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FUNFACTS -->
+
+    <!-- START EDU -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2>
+                <span class="font-weight-bold">Education</span>
+                <span><img src="images/edu-removebg-preview.png" width="55px" alt=""></span>
+              </h2>
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+              <p class="text-muted mx-auto mt-2"></p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 pt-4 ml-4">
+          <div class="col-lg-12">
+            <div class="cv_edu_exp mt-3">
+              <div class="cv_edu_exp_box mt-4">
+                <div class="row">
+                  <div class="col-lg-20">
+                    <div
+                      class="cv_edu_exp_year font-weight-bold text-custom position-relative"
+                    >
+                      2021 - 2025
+                    </div>
+                    <div class="cb_edu_exp_detail">
+                      <h4>Studied at Singapore Management University</h4>
+                      <p class="cv_desc mb-0">
+                        Activities and societies: </p>
+
+                        <ul class="list-unstyled  pt-4">
+                        <li class=" list-item ">
+                            <span class="font-weight-bold">Mentor</span> , Coder's Assembly 
+                        </li>
+                        <li class="list-item">
+                            <span class="font-weight-bold">Clan head</span> , SMU SCIS Freshmen Orientation 
+                         </li>
+                         <li class="list-item">
+                            <span class="font-weight-bold">Corporate Relations Executive</span> , SCIS GLOW 
+                         </li>
+                         <li class="list-item">
+                            <span class="font-weight-bold">Facilitator</span> , SMU ICON Freshmen Orientation 
+                         </li>
+                         <li class="list-item">
+                            <span class="font-weight-bold">Member</span> , .Hack 
+                         </li>
+                         <li class="list-item">
+                            <span class="font-weight-bold">Member</span> , SMU Product Club 
+                         </li>
+                         <li class="list-item">
+                            <span class="font-weight-bold">Member</span> , SMU Women In Tech 
+                         </li>
+                         <li class="list-item">
+                            <span class="font-weight-bold">Member</span> , SMU Funk Movement 
+                         </li>
+                         </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cv_edu_exp_box mt-4">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div
+                      class="cv_edu_exp_year font-weight-bold text-custom position-relative"
+                    >
+                      2019 - 2020
+                    </div>
+                    <div class="cb_edu_exp_detail">
+                      <h4>Studied At Anderson Serangoon Junior College</h4>
+                      <p class="cv_desc mb-0">
+                        Activities and societies: </p>
+
+                      <p class="cv_desc mb-0">
+                        <ul class="list-unstyled  pt-4">
+
+                        <li class="list-inline-item">
+                            <span class="font-weight-bold">Programmes Executive</span> , Students' Council
+                         </li>
+                         </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+             
+            </div>
+          </div>
+        
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END EXP. & EDU. -->
+
+    <!-- START CTA -->
+    <section class="section bg-cta">
+      <div class="bg-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center text-white">
+              <h1>"Happiness often sneaks in through a door you didn’t know you left open.” </h1>
+              <div class="mt-4">
+                <a class="btn btn-outline-custom">John Barrymore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CTA -->
+
+    <!-- START SUBCRIBE  -->
+    <section class="section" id="subscribe">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2>
+                <span class="font-weight-bold">Subscribe</span> to Newsletter
+              </h2>
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+              <p class="text-muted mx-auto mt-2">
+                If you would like to get regular updates on the latest
+                technology news!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 pt-4">
+          <div class="col-lg-12">
+            <div class="text-center subcribe-newsletter mt-4">
+              <form class="mx-auto position-relative">
+                <input type="text" placeholder="Email" />
+                <button type="submit" class="btn btn-custom">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SUBCRIBE -->
+
+    <!-- START BLOG -->
+    <section class="section" id="blog">
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2>The <span class="font-weight-bold">Blog</span>
+                <img src="images/read.png" width="30px" alt="">
+            </h2>
+             
+
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+              <p class="text-muted mx-auto mt-2">
+                Just a collection of articles with random things I find
+                interesting
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 pt-4">
+          <div class="col-lg-4 mt-3">
+            <div class="text-center rounded bg-white p-2">
+              <div class="img_blog">
+                <img
+                  src="images/blog/blog-1.jpg"
+                  alt=""
+                  class="img-fluid rounded mx-auto d-block"
+                />
+              </div>
+              <div class="content_blog pt-3 pb-3">
+                <div>
+                  <h5 class="font-weight-bold mb-0">
+                    The Addiction Plaguing
+                    <br />
+                    Our Culture
+                  </h5>
+                </div>
+                <div class="mt-3">
+                  <p class="font-weight-bold h6 mb-3">
+                    <h7 class="text-custom">Lifestyle</h7>
+                  </p>
+
+                  <p class="mt-3 desc_blog pl-2 pr-2 text-muted">
+                    It seems as if we live in a society that is addicted to
+                    getting it right. What is unique about being perfect? And
+                    how does that move our society forward as a whole?
+                  </p>
+                  <p class="h6 mb-0">
+                    <a
+                      href="https://medium.com/@lizzie_59360/the-addiction-that-plagues-our-culture-d9d3d0d1f7db"
+                      class="text-muted font-weight-bold"
+                      >Read More...</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <div class="text-center rounded bg-white p-2">
+              <div class="blog_video position-relative">
+                <a href="https://www.youtube.com/watch?v=72ZVFzu0WnE" class="blog_play"
+                  >
+                  <img src="images/play.png" width="50px" alt="">
+                </a>
+              </div>
+              <div class="content_blog pt-3 pb-3">
+                <div>
+                    <h5 class="font-weight-bold mb-0">
+                        <br>
+                        If you're a tourist in Scandinavia, avoid these 6 things</h5>
+                </div>
+                <div class="mt-3">
+                  <p class="font-weight-bold h6 mb-3">
+                    <h7 class="text-custom">Travel</h7>
+                  </p>
+
+                  <p class="mt-3 desc_blog pl-2 pr-2 text-muted">
+                    Ask any Scandinavian, and I am fairly certain they will recognize themselves in some (if not all) paragraphs.
+                  </p>
+                  <p class="h6 mb-0">
+                    <a
+                      href="https://medium.com/self-less/if-youre-a-tourist-in-scandinavia-don-t-do-these-6-things-3c64b1fc6e63"
+                      class="text-muted font-weight-bold"
+                      >Read More...</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <div class="text-center rounded bg-white p-2">
+              <div class="content_blog pt-3 pb-3">
+                <div>
+                  <h5 class="font-weight-bold mb-0">
+                    Eat spicy food, live longer!
+                  </h5>
+                </div>
+                <div class="mt-3">
+                  <p class="font-weight-bold h6 mb-3">
+                    <h7 class="text-custom">Food</h7>
+                  </p>
+
+                  <p class="mt-3 desc_blog pl-2 pr-2 text-muted">
+                    In a large study, analyzing more than 500,000 people, those
+                    who ate spicy foods 6 or 7 days a week had a 14% lower risk
+                    of dying than people who ate spicy foods less than once a
+                    week.
+                  </p>
+                  <p class="h6 mb-0">
+                    <a
+                      href="https://medium.com/@andrewmerle/eat-spicy-food-live-longer-c8160290fc1b"
+                      class="text-muted font-weight-bold"
+                      >Read More...</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END BLOG -->
+
+    <!-- CONTACT FORM START-->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2><span class="font-weight-bold">Contact me</span>
+                <img src="images/test-removebg-preview.png" width="30px" alt="">
+
+            </h2>
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+              <p class="text-muted mx-auto mt-2">
+                Slow response, so fill in this form if urgent!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 pt-4">
+          <div class="col-lg-4">
+            <div class="text-center mt-4">
+              <div>
+                <i class="mbri-mobile2 text-custom h2"></i>
+              </div>
+             
+            </div>
+            <div class="text-center mt-4">
+              <div>
+                <i class="mbri-letter text-custom h2"></i>
+              </div>
+              <div class="mt-2">
+                <img src="images/gmail.png" width="30px" alt="">
+                <p class="mb-0 font-weight-bold">Email</p>
+                <p class="text-muted">jenniferkelsie73@gmail.com</p>
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <div>
+                <i class="mbri-letter text-custom h2"></i>
+              </div>
+              <div class="mt-2">
+                <a href="https://www.linkedin.com/in/jenniferkelsie/?originalSubdomain=sg">
+                    <img src="images/linkedin.png" width="30px" alt="">
+                  </a>
+                <p class="mb-0 font-weight-bold">Linkedin</p>
+                <p class="text-muted">linkedin.com/in/jenniferkelsie</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="contact_form">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group mt-2">
+                      <label for="name" class="font-weight-bold">Name</label>
+                      <input
+                        name="name"
+                        id="name"
+                        type="text"
+                        class="form-control"
+                        placeholder="Your name..."
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group mt-2">
+                      <label for="email" class="font-weight-bold"
+                        >Email address</label
+                      >
+                      <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        class="form-control"
+                        placeholder="Your email..."
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <label for="subject" class="font-weight-bold"
+                        >Subject</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        placeholder="Your Subject.."
+                        required=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <label for="comments" class="font-weight-bold"
+                        >Message</label
+                      >
+                      <textarea
+                        name="comments"
+                        id="comments"
+                        rows="4"
+                        class="form-control"
+                        placeholder="Your message..."
+                        required=""
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 text-right">
+                    <input
+                      type="submit"
+                      class="btn btn-custom"
+                      value="Send Message"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT FORM END-->
+
+    <!-- START FOOTER -->
+    <section class="bg-dark">
+      <div class="container">
+        <div class="row pt-4 pb-4">
+          <div class="col-lg-12">
+            <div class="text-center mt-2 mb-2 ">
+              <p class=" text-muted  ">Just a random footer. Hope you have a nice day!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOTER -->
+
+
+    </body>
 </html>
