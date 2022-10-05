@@ -260,7 +260,7 @@ button:focus {
 
 .bg-funfact {
     position: relative;
-    background-color:#437698;
+    background-image: url(images/testw.avif);
     background-size: cover;
     background-position: center center;
 }
