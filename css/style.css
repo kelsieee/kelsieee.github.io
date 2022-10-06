@@ -315,8 +315,12 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
 =============================*/
 
 #education{
-    background: rgb(250,204,255);
-    background: linear-gradient(90deg, rgba(250,204,255,0.913624824929972) 27%, rgba(228,227,252,1) 74%);
+    /* background: rgb(250,204,255);
+    background: linear-gradient(90deg, rgba(250,204,255,0.913624824929972) 27%, rgba(228,227,252,1) 74%); */
+    background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
+    background-size: cover;
+    background-position: center ;
+
 }
 
 
@@ -402,9 +406,12 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
 ============================*/
 
 #blog{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,204,255,1) 0%, rgba(0,212,255,1) 100%);
-    
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,204,255,1) 0%, rgba(0,212,255,1) 100%); */
+    background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
 }
 .blog_video .blog_play {
     position: absolute;
