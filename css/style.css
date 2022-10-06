@@ -334,7 +334,7 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
         7.EDUCATION
 =============================*/
 
-#education{
+.education{
     /* background: rgb(250,204,255);
     background: linear-gradient(90deg, rgba(250,204,255,0.913624824929972) 27%, rgba(228,227,252,1) 74%); */
     background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
@@ -343,10 +343,31 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
 
 }
 
+.glass_card{
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem  1.3rem  1.3rem rgba(0, 0, 0, 0.5);
+    /* border-top-color: rgba(225,225,225,0.5);
+    border-left-color: rgba(225,225,225,0.5);
+    border-bottom-color: rgba(225,225,225,0.1);
+    border-right-color: rgba(225,225,225,0.1); */
+}
+
+.glass_card_1{
+    background-color: rgba(225, 225, 225, 0.1);
+}
+
+
+.glass_card_2{
+    background:linear-gradient(to right bottom,rgba(225, 225, 225, 0.5) , rgba(25, 225, 225, 0.3))
+}
+
 
 .cv_edu_exp .cv_edu_exp_box {
     border-radius: 12px;
-    border: 2px solid #000;
+    border: 1px solid transparent;
     /* background-color: hsl(355, 62%, 84%);  */
     margin-left: 20px;
     padding: 20px;
