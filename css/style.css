@@ -353,7 +353,7 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
     /* text-transform: capitalize; */
 }
 
-.cv_desc {
+.cv_de gb {
     line-height: 26px;
     font-size: 15px;
     color: #666;
@@ -458,7 +458,6 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
     color: #000 !important;
     font-size: 35px;
     line-height: 65px;
-    background-color: #fff;
 }
 
 /*==========================
