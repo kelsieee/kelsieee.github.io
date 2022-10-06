@@ -190,6 +190,7 @@ button:focus {
 
 .home-bg {
     background-image: url(../images/fuji2.jpg);
+    height:fit-content;
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -203,7 +204,7 @@ button:focus {
 .home-table {
     display: table;
     width: 100%;
-    height: 100%;
+    height: 200%;
 }
 
 .header_title {
