@@ -2,8 +2,19 @@
 /*======================
         1.BASIC
 ========================*/
+* { padding: 0; margin: 0; }
+html,body{
+    min-height: 100% !important;
+    height: 100%;
+}
+
+#fullheight {
+    height: 100%;
+    
+}
 
 body {
+
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
 }
@@ -194,29 +205,38 @@ button:focus {
     background-position: center center;
     background-size: cover;
     position: relative;
+    padding: 70px 30px;
 }
 
-.home-table-center {
-    display: table-cell;
-    vertical-align: middle;
-}
+
 
 .home-table {
+
     display: table;
     width: 100%;
-    height: 200%;
+    height: 100%;
+    margin-top: 30px;
+    top: 50%;
+    left: 50%;
+   
 }
 
 .header_title {
     font-size: 72px;
     font-weight: 400;
     line-height: 1.2;    
+    height: 80px;
+
 }
 
 .header_subtitle {
     line-height: 2.0;
     font-size: 18px;
     max-width: 600px;
+    display: table-cell;
+    text-align: center;
+        height: 80px;
+
 }
 
 .social_home li a {
@@ -225,6 +245,8 @@ button:focus {
     display: inline-block;
     width: 30px;
     text-align: center;
+        height: 80px;
+
 }
 
 /*==========================
