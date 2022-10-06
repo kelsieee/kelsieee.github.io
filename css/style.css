@@ -372,7 +372,12 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
         9.SUBCRIBE SECTION
 ============================*/
 #subscribe{
-    background-color: #ead3cd;
+
+    /* background-image: url(../images/blurry-gradient-haikei\ \(1\).svg); */
+    /* background-size: cover; */
+    /* background-position: bottom ; */
+    background-color: #d4ffee;
+
 }
 .subcribe-newsletter input {
     padding: 15px 20px;
@@ -399,6 +404,7 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
 
 .subcribe-newsletter form {
     max-width: 550px;
+    
 }
 
 /*==========================
@@ -441,7 +447,7 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
         11.CONTACT US
 ============================*/
 #contact{
-    background-color: #ead3cd;
+    background-color: #d4ffee;
 }
 .form-sub-title {
     font-size: 15px;
