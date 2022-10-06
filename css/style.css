@@ -308,6 +308,7 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
     background-image: url(../images/flower.jpeg);
     background-size: cover;
     background-position: center center;
+    opacity: .9;
 }
 
 /*===========================
@@ -410,6 +411,23 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
 /*==========================
         10.BLOG
 ============================*/
+
+
+.card{
+    padding: 5rem 2.5rem;
+    border-radius: 1rem;
+    border:1px solid transparent;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+
+.cb1{
+    background-color: rgba(225,225,225,0.1);
+}
 
 #blog{
     /* background: rgb(2,0,36);
