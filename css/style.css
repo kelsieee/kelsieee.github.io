@@ -140,6 +140,25 @@ button:focus {
     font-size: 15px;
 }
 
+.btn-outline-custom-2{
+    background-color: white;
+    border: 2px solid #fff;
+    color: #000;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+    font-size: 15px;
+}
+
+
+.btn-outline-custom-2:hover,
+.btn-outline-custom-2:focus,
+.btn-outline-custom-2:active,
+.open>.dropdown-toggle.btn-outline-custom-2 {
+    background-color: #4c5667 !important;
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
 .btn-outline-custom:hover,
 .btn-outline-custom:focus,
 .btn-outline-custom:active,
