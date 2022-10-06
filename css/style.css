@@ -348,11 +348,11 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
     border: 1px solid transparent;
     -webkit-backdrop-filter: blur(1rem);
     backdrop-filter: blur(1rem);
-    box-shadow: 1.3rem  1.3rem  1.3rem rgba(0, 0, 0, 0.5);
-    /* border-top-color: rgba(225,225,225,0.5);
+    box-shadow: 1.3rem  1.3rem  1.3rem rgba(12, 12, 12, 0.2);
+    border-top-color: rgba(225,225,225,1.0);
     border-left-color: rgba(225,225,225,0.5);
     border-bottom-color: rgba(225,225,225,0.1);
-    border-right-color: rgba(225,225,225,0.1); */
+    border-right-color: rgba(225,225,225,0.1);
 }
 
 .glass_card_1{
@@ -527,7 +527,7 @@ background-image: url(../images/blurry-gradient-haikei\ \(1\).svg);
     border-radius: 1rem;
     border:1px solid transparent;
     backdrop-filter: blur(1rem);
-    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(12, 12, 12, 0.2);
     border-top-color: rgba(255, 255, 255, 0.5);
     border-left-color: rgba(255, 255, 255, 0.5);
     border-bottom-color: rgba(255, 255, 255, 0.1);
